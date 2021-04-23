@@ -2,29 +2,27 @@
 exercice de base de HTML et CSS
 
 ## Cadre:
-Cet exercice est effectué dans le cadre de ma première année de ma formation au centre IFAMPE. 
+Ces exercices sont effectués dans le cadre de ma première année de ma formation au centre IFAMPE. 
 Nous sommes en Avril 2021.
 
-## Technos utilisées:
+
+## Projet 1
+### Technos utilisées:
 HTML5
 CSS3
 
-## Auteurs: 
+### Auteurs: 
 projet solo
 
-## Instructions:
+### Instructions:
 Intégrer 3 pages en html et css
 
 Délai: 16h
 
-## objectif:
+### objectif:
 ![alt text][image/target01.png]
 
-## Statut:
+### Statut:
 En cours
 
-## Projet déployé: 
-Lien Github : https://github.com/RekhaLambotte/ADB.git
-
-Lien web: https://rekhalambotte.github.io/ADB/
 
