@@ -1,7 +1,13 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Open Sans', sans-serif;
+    box-sizing: border-box;
+    
+}
+
+html, body{
+  font-family: 'Open Sans', sans-serif;
+  color: #222;
 }
 
 img{
@@ -9,35 +15,40 @@ img{
 }
 
 li{
-  list-style-type: none;
-}
-
-footer, header{
-  background-color: rgb(51, 51, 51);
-  color: white;
-  padding: 2rem;
+  list-style: none;
 }
 
 a{
-  color: white;
+  text-decoration: none;
+  
 }
 
 
 /* header */
 header{
+  background-color: #333;
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 
 header > nav > ul{
 display: flex;
 }
 
-header > nav > ul > li{
-  margin: 0.5rem 1rem;
+header > h1{
+  padding: .9rem;
 }
 
+header > h1 > a, 
+header > nav > ul > li >a {
+  padding: 1rem 1rem;
+  color: white;
+}
 
+header > nav > ul > li >a:hover{
+  background: #444;
+}
 
 /* main */
 
@@ -51,15 +62,12 @@ header > nav > ul > li{
 }
 
 .map{
-  padding: 1rem;
   width: 50%;
-  height: 100%;
-  
 }
 
 .map > iframe{
-width: 100%;
-height: 100%;
+  width: 100%;
+  height: 100%;
 }
 
 .info{
@@ -122,12 +130,18 @@ border: lightgray solid 1px;
   border-radius: 30px;
   border: 2px solid;
   text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
 }
 
-/* home */
+.btn:hover{
+  background: #444;
+}
+
+/* main - home */
 
 
-/* home - intro */
+/* main - home - intro */
 .intro{
   display: flex;
   justify-content: center;
@@ -144,6 +158,7 @@ border: lightgray solid 1px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 }
 
 .intro > div > h2{
@@ -164,14 +179,21 @@ border: lightgray solid 1px;
   font-size: 1.3rem;
 }
 
-.intro > div > button{
+.btnWhite{
   margin-top: 1rem;
   padding:1rem 1.5rem;
   width: 150px;
   border-radius: 30px;
   border: none;
   text-transform: uppercase;
+  background: white;
+  color: black;
+  font-weight: bold;
+}
 
+.btnWhite:hover{
+  background: #444;
+  color: white;
 }
 
 /* home - Coffe and Hour */
@@ -237,5 +259,8 @@ border: lightgray solid 1px;
 
 /* footer */
 footer{
+  background-color: #333;
+  color: white;
   text-align: center;
+  padding: 1rem;
 }
