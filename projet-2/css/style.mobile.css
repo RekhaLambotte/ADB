@@ -1,0 +1,77 @@
+@media screen and ( max-width : 900px ) {
+
+    .header{
+      display: flex;
+      flex-direction: column; 
+      width: 100%;
+    }
+  
+    nav{
+      width: 80%;
+      margin-bottom: 1rem;
+    }
+  
+    header > nav > ul{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      margin-top: 1rem;
+      }
+  
+    header > nav > ul > li {
+      width: 100%;
+      text-align: center;
+      padding-top: 1rem;
+      padding-bottom: .5rem;
+      color: white;
+      border-bottom: solid whitesmoke 1px;
+    }
+  
+  
+    .introBox{
+      width: 100%;
+      padding: 2rem;
+    }
+  
+    .offerAll{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .offerSingle{
+      width: 100%;
+    }
+  
+    #team{
+      display: flex;
+      flex-direction: column-reverse;
+      color: white;
+    }
+  
+    .teamImg{
+      width: 100%;
+      height: 400px;
+  
+    }
+    
+    .teamTxt{
+      width: 100%;
+    }
+  
+    .commentSingle{
+    display: flex; 
+    flex-direction: column-reverse;
+    justify-content: center;  
+    align-items: center;
+    
+    }  
+  
+    
+      
+  }
+
+

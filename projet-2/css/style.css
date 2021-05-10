@@ -1,0 +1,318 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+/* 
+font-family: "Montserrat", sans-serif;
+font-family: "Long Cang", cursive; */
+
+html, body{
+  font-family: "Montserrat", sans-serif;
+  color: #222;
+
+}
+
+body{
+  min-height: 100vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: lightgrey;
+}
+
+img{
+    width: 100%;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+.orange{
+  color: #f1c40f;
+}
+
+/* header */
+header{
+  background-color: #333;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header > nav > ul{
+display: flex;
+}
+
+.logoAll{
+  display: flex;
+  padding: .9rem;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+h1{
+  font-family: "Long Cang", cursive;
+  color: white;
+  font-size: 3rem;
+}
+
+.crown{
+  color: #f1c40f;
+  display: flex;
+  align-items: center;
+  font-size: 1.2rem;
+  margin: 0 1rem;
+}
+
+header > nav > ul > li >a {
+  padding: 1rem;
+  color: white;
+}
+
+header > nav > ul > li >a:hover{
+  background: #444;
+}
+
+/* main */
+
+/* main - intro */
+
+#intro{
+  background-image: url(../image/frame.jpg);
+  background-position: center;
+  background-size:cover;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
+h2{
+  font-size: 4rem;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.introTxt{
+  font-size: 2rem;
+  color: rgba(255, 255, 255, 0.664);
+  text-align: center;
+}
+
+/* main - offer */
+
+#offer{
+  display: flex;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+#offer > h3{
+  padding: 2rem;
+  font-size: 3rem;
+  font-weight: 200;
+}
+
+
+
+.offerSingle{
+  display: flex;
+  flex-direction: column;
+  margin: 2rem;
+  align-items: center;
+  background-color: whitesmoke;
+  padding-bottom: 2rem;
+}
+
+.offerSingle > img{
+  margin-bottom: 2rem;
+}
+
+.offerSingle > p{
+  margin: .5rem;
+  text-align: center;
+}
+
+.line{
+  border: 2px solid;
+  background-color: black;
+  width: 50px;
+}
+
+
+/* main - team */
+
+.teamImg{
+  
+  background-image: url(../image/team.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.teamTxt{
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 3rem;
+  background-color: #333;
+}
+
+.teamTxt >h3{
+  padding-bottom: 1rem;
+}
+
+
+/* main - comments */
+#comments{
+  display: flex;
+  padding: 3rem;
+}
+
+.commentAll{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: justify;
+}
+
+.commentSingle{
+  display: flex; 
+  justify-content: space-between;  
+  background-color: whitesmoke;
+  margin: 1rem;
+}
+
+.commentUser{
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  padding: 1rem;
+}
+
+.commentUser>img{
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.commentTxt{
+  display: flex;
+  justify-content: center;
+  align-items: justify;
+  padding: 2rem;
+}
+
+/* main - contact */
+
+#contact{
+  color: #555;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  padding: 3rem;
+}
+
+.contactAll{
+  display: flex;
+  flex-direction: column;
+}
+
+.contactAll>h3{
+  padding: 1rem 0;
+}
+
+.formContact{
+  display: flex;
+  flex-direction: column; 
+}
+
+.formContact>label{
+  border-bottom: solid 1px ;
+  margin: 1rem 0;
+  
+}
+
+.input{
+  border: none;
+  background: none;
+  margin-bottom: .5rem;
+}
+
+.message{
+  height: 4rem;
+}
+
+.btnContact{
+  background-color: orange;
+  color: white;
+  margin-top: 1rem;
+  padding: 1rem;
+  border-radius: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: bold;
+}
+
+.btnContact:hover{
+  background: #444;
+}
+
+/* footer */
+footer{
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+
+@media screen and (min-width: 901px) { 
+
+  .introBox{
+    width: 80%;
+    padding: 10rem;
+  }
+  
+  .offerAll{
+    display: flex;
+  }
+  
+  .offerSingle{
+    width: 30%;
+  }
+  
+  #team{
+    display: flex;
+    color: white;
+    
+  }
+
+  .teamImg, .teamTxt{
+    width: 50%;
+  }
+
+  .commentAll :nth-child(even){
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .commentSingle{
+    display: flex; 
+    justify-content: space-between;  
+  }
+  
+}
+
