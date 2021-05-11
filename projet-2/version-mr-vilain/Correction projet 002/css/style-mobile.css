@@ -1,0 +1,55 @@
+/* HEADER */
+header{
+    background: #333;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header nav{
+    width: 80%;
+    text-align: center;
+}
+
+header ul{
+    flex-direction: column;
+}
+
+header ul li{
+    border-bottom: 1px solid #444;
+}
+
+/* HERO */
+.hero{
+    padding: 4.5rem;
+}
+
+.hero div{
+    width: 80%;
+}
+
+
+/* OFFRE */
+#offres >div{
+    width: 90%;
+    margin: auto;
+    flex-direction: column;
+}
+
+/* EQUIPE */
+#equipe{
+    flex-direction: column-reverse;
+}
+
+.equipe-img{
+    min-height: 20rem;
+}
+
+/* AVIS */
+.avis{
+    width: 90%;
+}
+
+/* CONTACT */
+#contact > div {
+    width: 80%;
+}

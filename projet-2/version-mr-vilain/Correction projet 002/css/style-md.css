@@ -1,0 +1,24 @@
+/* HERO */
+.hero{
+    padding: 6.5rem;
+}
+/* OFFRE */
+#offres >div{
+    width: 100%;
+}
+
+/* EQUIPE */
+
+#equipe > div{
+    padding: 2rem;
+}
+
+/* AVIS */
+.avis{
+    width: 80%;
+}
+
+/* CONTACT */
+#contact > div {
+    width: 60%;
+}

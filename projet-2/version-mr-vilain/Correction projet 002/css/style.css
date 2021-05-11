@@ -1,0 +1,216 @@
+/* Normalize */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    font-family: "Montserrat", sans-serif;
+}
+
+h1{
+    font-family: "Long Cang", cursive;
+}
+
+h3{
+    font-weight: 100;
+    color:#333;
+    margin-top: 5rem;
+}
+
+/* HEADER */
+
+header{
+    background: #333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header > h1>i{
+    color: #f1c40f;
+    font-size: 1.5rem;
+    padding: 0.5rem;
+}
+
+header > h1{
+    color: white;
+    font-size: 2rem;
+}
+
+/* NAVBAR */
+ul{
+    list-style: none;
+    display: flex;
+}
+
+nav > ul > li >a{
+    color: white;
+    text-decoration: none;
+}
+
+nav > ul > li{
+    color: white;
+    padding: 1.7rem;
+}
+
+/* HERO */
+.hero{
+    background: url(../images/frame.jpg) center center/cover;
+    padding: 8.5rem;
+}
+
+.hero > div{
+    width: 60%;
+    text-align: center;
+    margin: auto;
+    color: white;
+    text-shadow: 2px 2px 2px #000000;
+}
+span{
+    color: #f1c40f;
+    font-weight: 300;
+}
+
+.hero > div >p{
+    margin-top: 1rem;
+    font-weight: 200;
+}
+
+/* Nos dernières offres */
+
+#offres{
+    padding: 2rem;
+}
+#offres > h3{
+    /* margin-top: 5rem; */
+    margin-left: 4rem;
+}
+
+#offres >div{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#offres > div > div{
+    flex: 1;
+    margin: 1.5rem;
+    text-align: center;
+}
+
+#offres > div > div >img{
+    width: 100%;
+}
+
+#offres > div > div > p{
+    padding: 0.5rem;
+}
+
+#offres > div > div > div {
+    width: 30%;
+    margin: auto;
+    border-bottom: 5px solid black;
+}
+
+/* EQUIPE */
+
+#equipe{
+    display: flex;
+}
+
+#equipe div{
+    flex: 1;
+    background-color: #333;
+    color: white;
+    padding: 6rem;
+}
+#equipe > div > h3 {
+    margin: 2rem 0 1rem 0;
+    color: white;
+    font-weight: 700;
+}
+
+#equipe > div > p {
+    margin-bottom: 2rem;
+}
+
+.equipe-img{
+    background: url(../images/team.jpg) center center/cover;
+}
+
+/* AVIS */
+.avis{
+    display: flex;
+    width: 60%;
+    margin: 4.5rem auto;
+    align-items: center;
+}
+
+.penser{
+    margin-left: 4rem;
+}
+
+.temoin{
+    flex: 8;
+}
+
+.personne{
+    flex: 2;
+    text-align: center;
+}
+
+.personne > img{
+    width: 3rem;
+    border-radius: 100%;
+
+}
+
+/* CONTACT */
+
+#contact{
+    background: #333;
+    padding: 5rem;
+}
+#contact > div {
+    width: 40%;
+    margin: auto;
+}
+
+#contact > div >h3{
+    color: white;
+    margin-bottom: 3rem;
+}
+
+#contact  div  form  input{
+    background: #333;
+    border: 0;
+    border-bottom: 1px solid #555;
+    padding: 1rem;
+    font-size: 1rem;
+    color: white;
+    outline: 0;
+    margin-bottom: 1rem;
+    width: 100%;
+}
+button{
+    display: block;
+    margin: 3rem auto;
+    padding: 1rem 2rem;
+    border: 0;
+    border-radius: 30px;
+    background: #f1c40f;
+    color: white;
+    font-weight: 700;
+    font-size: 1.3rem;
+    cursor: pointer;
+}
+
+footer{
+    padding: 4rem;
+    background: #444;
+    text-align: center;
+    color: white;
+}
